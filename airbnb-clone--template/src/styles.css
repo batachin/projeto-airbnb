@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.nav-logo {
+    width: 82.02px;
+    height: 25.352px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 2.983px 7.456px rgba(0, 0, 0, 0.10);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-grid {
+    width: 395.906px;
+    max-width: 400px;
+    height: 232px;
+    flex-shrink: 0;
+    margin: auto;
+    padding-top: 26px;
+}
+
+.hero-texto {
+    padding-left: 32px;
+}
+
+.hero-texto h1 {
+    width: 347px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    /* 39.6px */
+    display: flex;
+}
+
+.hero-texto p {
+    font-family: Poppins;
+    width: 320px;
+    height: 56px;
+    flex-shrink: 0;
+
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+    /* 17.6px */
+}
+
+.card-list {
+    display: flex;
+    margin-left: 37px;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    max-width: 176px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 0px;
+    position: relative;
+}
+
+.card-photo {
+    max-width: 176px;
+    border-radius: 9px;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    width: 14px;
+    height: 14px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 80px;
+    background-color: white;
+    padding: 10px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+}
